@@ -1,6 +1,7 @@
 let duckImage;
-let duckX = 640/2;
-let duckY = 480/2;
+let duckSound;
+
+let duckX = (screen_width/2)-32;
+let duckY = (screen_height/2)-32;
 let duckHeadx = duckX + 32;
 let duckHeady = duckY + 16;
-let duckSound;
