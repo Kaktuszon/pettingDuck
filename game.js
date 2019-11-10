@@ -1,5 +1,5 @@
-let screen_width = 200;
-let screen_height = 200;
+let screen_width = 300;
+let screen_height = 300;
 
 let canScore = 1;
 let score = 0;
@@ -25,7 +25,7 @@ function draw() {
 function checkCollision() {
     if((mouseX > duckX && mouseX < duckHeadx) && (mouseY > duckY && mouseY < duckHeady)) {
         textSize(16);
-        text('quack!', duckX-32, duckY-16);
+        text('quack!', duckX-16, duckY-16);
         scoring();
         canScore = 0;
     } else {
