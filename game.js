@@ -15,9 +15,6 @@ function setup() {
     duck.image = loadImage('duck.png');
     duck.sound = loadSound('quack.ogg');
     
-    //duckSound = loadSound('quack.ogg');
-    //duckImage = loadImage('duck.png');
-    
     document.getElementById("score").innerHTML = score;
 }
 
