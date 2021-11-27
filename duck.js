@@ -1,12 +1,16 @@
-let duckImage;
-let duckSound;
+class Duck {
+    constructor(_x, _y) {
+        this.x = _x;
+        this.y = _y;
+        this.w = 134;
+        this.h = 90;
 
-let duckW = 134;
-let duckH = 90;
-let duckX = (screen_width/2)-(duckW/2);
-let duckY = (screen_height/2)-(duckH/2);
+        this.headW = 72;
+        this.headH = 32;
+        this.headX = this.x + this.headW;
+        this.headY = this.y + this.headH;
 
-let duckHeadW = 72;
-let duckHeadH = 32;
-let duckHeadx = duckX + duckHeadW;
-let duckHeady = duckY + duckHeadH;
+        this.image;
+        this.sound;
+    }
+}
